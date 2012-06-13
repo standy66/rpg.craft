@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: bukkit-1.2.5-R4.1-20120613.060146-4.jar
+
