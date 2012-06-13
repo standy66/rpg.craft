@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5cec970-1989-412e-aa76-d60c22cfeba2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PlayerListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" />
     </list>
     <ignored path="rpg.craft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +62,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RPGCraft.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RPGCraft.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+            <state line="43" column="61" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.68469507">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PlayerListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="3" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,13 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionManager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PermissionManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="61" selection-start="403" selection-end="403" vertical-scroll-proportion="0.060989644">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="38" column="60" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,10 +103,8 @@
       <file leaf-file-name="Log.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="47" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="52" column="1" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,9 +133,10 @@
       <list>
         <option value="$PROJECT_DIR$/plugin.yml" />
         <option value="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java" />
-        <option value="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" />
         <option value="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" />
         <option value="$PROJECT_DIR$/permissions.yml" />
+        <option value="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PlayerListener.java" />
+        <option value="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" />
       </list>
     </option>
   </component>
@@ -165,16 +172,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,6 +252,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="rpg.craft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -406,7 +413,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21111704" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -473,49 +480,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/ref/bukkit-1.2.5-R4.1-20120613.060146-4.jar!/org/bukkit/plugin/java/JavaPlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="51" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.3429603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="60" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permissions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="1" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/ref/bukkit-1.2.5-R4.1-20120613.060146-4.jar!/org/bukkit/plugin/java/JavaPlugin.class">
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PlayerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="51" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.3429603">
-          <folding />
+        <state line="17" column="3" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="47" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/permissions.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+        <state line="43" column="61" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.68469507">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="61" selection-start="403" selection-end="403" vertical-scroll-proportion="0.060989644">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
