@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5cec970-1989-412e-aa76-d60c22cfeba2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/ability/Ability.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/ability/Ability.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BlockListener.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BlockListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/EntityListener.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/EntityListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/PlayerListener.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/PlayerListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/PlayersDB.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/PlayersDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/RCPlayer.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/RCPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillDB.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillDB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillState.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillState.java" />
-    </list>
+    <list default="true" id="b5cec970-1989-412e-aa76-d60c22cfeba2" name="Default" comment="" />
     <ignored path="rpg.craft.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PlayerListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/PlayerListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BlockListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BlockListener.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -151,10 +130,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Skill.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/Skill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SkillState.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.3912543">
+            <state line="14" column="39" selection-start="318" selection-end="318" vertical-scroll-proportion="0.273878">
               <folding />
             </state>
           </provider>
@@ -224,6 +212,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpg.craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rpg.craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,20 +394,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rpg.craft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rpg.craft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,8 +410,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -540,7 +528,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32700893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,6 +538,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32700893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -632,93 +620,69 @@
         <state line="5" column="8" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/Skill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="12" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="12" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="12" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/EntityListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="12" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/PlayerListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="13" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/ability/Ability.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="13" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BlockListener.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="12" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/PlayersDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/players/RCPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="12" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/ability/Ability.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/BlockListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/listeners/EntityListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="12" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="28" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/skill/SkillState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="410" selection-end="410" vertical-scroll-proportion="0.3912543">
+        <state line="14" column="39" selection-start="318" selection-end="318" vertical-scroll-proportion="0.273878">
           <folding />
         </state>
       </provider>
