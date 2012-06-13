@@ -1,0 +1,6 @@
+name: RPGCraft
+main: ru.darkcraft.RPGCraft.RPGCraft
+version: 1.0
+description: >
+             RPG mod for bukkit.
+commands:
