@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5cec970-1989-412e-aa76-d60c22cfeba2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/permissions.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/rpg_craft_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/rpg_craft_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/Log.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" afterPath="$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/RPGCraft.java" />
     </list>
     <ignored path="rpg.craft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +75,7 @@
       <file leaf-file-name="PermissionManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="37" selection-start="713" selection-end="713" vertical-scroll-proportion="0.31530493">
+            <state line="22" column="61" selection-start="403" selection-end="403" vertical-scroll-proportion="0.060989644">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -516,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/darkcraft/RPGCraft/PermissionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="713" selection-end="713" vertical-scroll-proportion="0.31530493">
+        <state line="22" column="61" selection-start="403" selection-end="403" vertical-scroll-proportion="0.060989644">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

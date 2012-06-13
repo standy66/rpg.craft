@@ -30,7 +30,7 @@ public class Log
             throw  new NullPointerException("Logger instance is null");
         else
         {
-            String format = "[%1 | %2] %3";
+            String format = "[%1$s | %2$s] %3$s";
             instance.logger.log(logLevel, String.format(format, instance.pluginDescriptionFile.getName(), instance.pluginDescriptionFile.getVersion(), message));
         }
     }
