@@ -8,6 +8,7 @@
         </element>
         <element id="module-output" name="rpg.craft" />
         <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+        <element id="file-copy" path="$PROJECT_DIR$/permissions.yml" />
       </element>
     </root>
   </artifact>
