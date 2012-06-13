@@ -1,9 +1,10 @@
-package ru.darkcraft.RPGCraft;
+package ru.darkcraft.RPGCraft.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
+import ru.darkcraft.RPGCraft.RPGCraft;
 
 /*
  * PlayerListener
@@ -13,14 +14,11 @@ import org.bukkit.event.player.PlayerLoginEvent;
  * @author KarN
  * @version 1.0
  */
-public class PlayerListener implements Listener
+public class PlayerListener extends BaseListener
 {
-    private RPGCraft plugin;
-
     public PlayerListener(RPGCraft plugin)
     {
-        this.plugin = plugin;
-        plugin.getServer().getPluginManager().registerEvents(this, plugin);
+        super(plugin);
     }
 
     @EventHandler

@@ -6,6 +6,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.Command;
+import ru.darkcraft.RPGCraft.listeners.*;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.logging.Logger;
@@ -20,9 +21,13 @@ public class RPGCraft extends JavaPlugin
     private Logger logger;
     private PluginDescriptionFile pluginDescriptionFile;
     private PermissionManager permissionManager;
-    private PlayerListener playerListener;
     private PluginManager pluginManager;
     private Server server;
+
+    private PlayerListener playerListener;
+    private EntityListener entityListeners;
+    private BlockListener blockListener;
+
 
     @Override
     public void onEnable()
@@ -31,7 +36,10 @@ public class RPGCraft extends JavaPlugin
 
         server = getServer();
         pluginManager = server.getPluginManager();
+
         playerListener = new PlayerListener(this);
+        blockListener = new BlockListener(this);
+        entityListeners = new EntityListener(this);
 
         permissionManager = new PermissionManager(pluginManager);
         permissionManager.loadPermissions("/permissions.yml");
