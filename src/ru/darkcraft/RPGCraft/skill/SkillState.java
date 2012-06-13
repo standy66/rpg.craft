@@ -9,7 +9,7 @@ package ru.darkcraft.RPGCraft.skill;
  */
 public class SkillState {
     protected Skill skill;
-    protected int upxp;
+    protected int upXP;
     protected int level;
     protected int xp;
 
@@ -26,10 +26,10 @@ public class SkillState {
     }
 
     public void up() {
-        if(skill.maxlevel>level && skill.upxp(level)<=xp) {
+        if(skill.getMaxlevel()>level && skill.upXP(level)<=xp) {
             level++;
-            xp=xp-upxp;
-            upxp=skill.upxp(level);
+            xp=xp-upXP;
+            upXP=skill.upXP(level);
         }
     }
 }

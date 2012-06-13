@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Time: 1:07
  * To change this template use File | Settings | File Templates.
  */
-public class Skills {
+public class SkillDB {
     private HashMap<String,Skill> skills;
 
     public Skill get(String name) {
@@ -17,6 +17,6 @@ public class Skills {
     }
 
     public void set(String name, Skill skill) {
-           skills.put(name,skill);
+        skills.put(name,skill);
     }
 }

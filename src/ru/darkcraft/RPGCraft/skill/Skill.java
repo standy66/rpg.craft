@@ -8,6 +8,12 @@ package ru.darkcraft.RPGCraft.skill;
  * To change this template use File | Settings | File Templates.
  */
 public interface Skill {
-    int maxlevel = 0;
-    public int upxp(int level);
+    public int upXP(int level);
+    public int getMaxlevel();
+    public class Run implements Runnable {
+        @Override
+        public void run() {
+            //To change body of implemented methods use File | Settings | File Templates.
+        }
+    }
 }
