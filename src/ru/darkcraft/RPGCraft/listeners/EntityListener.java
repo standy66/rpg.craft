@@ -12,7 +12,7 @@ import ru.darkcraft.RPGCraft.RPGCraft;
  * @author KarN
  * @version 1.0
  */
-public class EntityListener extends BaseListener
+public final class EntityListener extends BaseListener
 {
     public EntityListener(RPGCraft plugin)
     {

@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  * @author KarN
  * @version 1.0
  */
-public class RPGCraft extends JavaPlugin
+public final class RPGCraft extends JavaPlugin
 {
     private Logger logger;
     private PluginDescriptionFile pluginDescriptionFile;

@@ -21,7 +21,7 @@ import java.util.*;
  * @version 1.0
  */
 
-public class PermissionManager
+public final class PermissionManager
 {
     private PluginManager pluginManager;
     private ArrayList<Permission> permissions;

@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  * @author KarN
  * @version 1.0
  */
-public class Log
+public final class Log
 {
     private Logger logger;
     private  PluginDescriptionFile pluginDescriptionFile;

@@ -12,7 +12,7 @@ import ru.darkcraft.RPGCraft.RPGCraft;
  * @author KarN
  * @version 1.0
  */
-public class BlockListener extends BaseListener
+public final class BlockListener extends BaseListener
 {
     public BlockListener(RPGCraft plugin)
     {

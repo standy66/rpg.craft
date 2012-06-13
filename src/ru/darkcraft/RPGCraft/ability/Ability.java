@@ -7,5 +7,7 @@ package ru.darkcraft.RPGCraft.ability;
  * Time: 0:55
  * To change this template use File | Settings | File Templates.
  */
-public class Ability {
+public class Ability
+{
+
 }

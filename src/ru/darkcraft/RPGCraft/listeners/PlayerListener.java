@@ -16,7 +16,7 @@ import ru.darkcraft.RPGCraft.players.RCPlayer;
  * @author KarN
  * @version 1.0
  */
-public class PlayerListener extends BaseListener
+public final class PlayerListener extends BaseListener
 {
     public PlayerListener(RPGCraft plugin)
     {

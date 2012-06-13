@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Time: 0:54
  * To change this template use File | Settings | File Templates.
  */
-public class RCPlayer {
+public final class RCPlayer {
     private Player player;
     private ArrayList<SkillState> skills;
     private int HP;
@@ -23,61 +23,75 @@ public class RCPlayer {
     private int stamina;
     private int maxStamina;
 
-    public RCPlayer(Player p) {
+    public RCPlayer(Player p)
+    {
         this.player=p;
     }
 
-    public void load(ConfigurationSection cfg) {
+    public void load(ConfigurationSection cfg)
+    {
         for(String s:cfg.getConfigurationSection("skills").getKeys(false)) {
 
         }
     }
 
-    public int getHP() {
+    public int getHP()
+    {
         return HP;
     }
 
-    public void setHP(int HP) {
+    public void setHP(int HP)
+    {
         this.HP = HP;
     }
 
-    public int getMaxHP() {
+    public int getMaxHP()
+    {
         return maxHP;
     }
 
-    public void setMaxHP(int maxHP) {
+    public void setMaxHP(int maxHP)
+    {
         this.maxHP = maxHP;
     }
 
-    public int getMana() {
+    public int getMana()
+    {
         return mana;
     }
 
-    public void setMana(int mana) {
+    public void setMana(int mana)
+    {
         this.mana = mana;
     }
 
-    public int getMaxMana() {
+    public int getMaxMana()
+    {
         return maxMana;
     }
 
-    public void setMaxMana(int maxMana) {
+    public void setMaxMana(int maxMana)
+    {
         this.maxMana = maxMana;
     }
 
-    public int getStamina() {
+    public int getStamina()
+    {
         return stamina;
     }
 
-    public void setStamina(int stamina) {
+    public void setStamina(int stamina)
+    {
         this.stamina = stamina;
     }
 
-    public int getMaxStamina() {
+    public int getMaxStamina()
+    {
         return maxStamina;
     }
 
-    public void setMaxStamina(int maxStamina) {
+    public void setMaxStamina(int maxStamina)
+    {
         this.maxStamina = maxStamina;
     }
 }

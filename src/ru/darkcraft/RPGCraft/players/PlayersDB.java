@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Time: 1:24
  * To change this template use File | Settings | File Templates.
  */
-public class PlayersDB {
+public final class PlayersDB {
     private static HashMap<String,RCPlayer> players;
 
     public static void set(String name,RCPlayer p) {

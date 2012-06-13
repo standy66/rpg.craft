@@ -9,14 +9,17 @@ import java.util.HashMap;
  * Time: 1:07
  * To change this template use File | Settings | File Templates.
  */
-public class SkillDB {
+public class SkillDB
+{
     private HashMap<String,Skill> skills;
 
-    public Skill get(String name) {
+    public Skill get(String name)
+    {
         return skills.get(name);
     }
 
-    public void set(String name, Skill skill) {
+    public void put(String name, Skill skill)
+    {
         skills.put(name,skill);
     }
 }
