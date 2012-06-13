@@ -29,10 +29,9 @@ public class RPGCraft extends JavaPlugin
     {
         new Log(getLogger(), getDescription());
 
-        playerListener = new PlayerListener();
         server = getServer();
         pluginManager = server.getPluginManager();
-        pluginManager.registerEvents(playerListener, this);
+        playerListener = new PlayerListener(this);
 
         permissionManager = new PermissionManager(pluginManager);
         permissionManager.loadPermissions("/permissions.yml");
@@ -53,8 +52,4 @@ public class RPGCraft extends JavaPlugin
     {
         throw  new NotImplementedException();
     }
-
-
-
-
 }

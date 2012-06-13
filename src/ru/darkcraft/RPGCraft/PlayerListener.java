@@ -6,7 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerLoginEvent;
 
 /*
- * Created with IntelliJ IDEA.
+ * PlayerListener
  * Date: 13.06.12
  * Time: 19:29
  *
@@ -15,8 +15,17 @@ import org.bukkit.event.player.PlayerLoginEvent;
  */
 public class PlayerListener implements Listener
 {
-   public void onPlayerLogin(PlayerLoginEvent event){
+    private RPGCraft plugin;
+
+    public PlayerListener(RPGCraft plugin)
+    {
+        this.plugin = plugin;
+        plugin.getServer().getPluginManager().registerEvents(this, plugin);
+    }
+
+    @EventHandler
+    public void onPlayerLogin(PlayerLoginEvent event){
        Player player = event.getPlayer();
        player.sendMessage("Welcome to server!");
-   }
+    }
 }
