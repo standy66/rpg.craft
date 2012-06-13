@@ -3,7 +3,9 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/ref/bukkit-1.2.5-R4.1-20120613.060146-4.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="http://jd.bukkit.org/apidocs/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/ref/bukkit-1.2.5-R4.1-20120613.060146-4.jar!/" />
     </SOURCES>
