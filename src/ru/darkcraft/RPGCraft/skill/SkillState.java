@@ -26,7 +26,7 @@ public class SkillState {
     }
 
     public void up() {
-        if(skill.upxp(level)<=xp) {
+        if(skill.maxlevel>level && skill.upxp(level)<=xp) {
             level++;
             xp=xp-upxp;
             upxp=skill.upxp(level);

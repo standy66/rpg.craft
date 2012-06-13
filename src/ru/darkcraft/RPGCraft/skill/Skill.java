@@ -7,12 +7,7 @@ package ru.darkcraft.RPGCraft.skill;
  * Time: 0:54
  * To change this template use File | Settings | File Templates.
  */
-public class Skill {
-
-    protected int maxlevel;
-
-    public int upxp(int level) {
-        return 1;
-    }
-
+public interface Skill {
+    int maxlevel = 0;
+    public int upxp(int level);
 }
