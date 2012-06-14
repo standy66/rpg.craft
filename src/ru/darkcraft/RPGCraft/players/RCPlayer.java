@@ -3,6 +3,10 @@ package ru.darkcraft.RPGCraft.players;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
 import ru.darkcraft.RPGCraft.skill.SkillState;
+import ru.darkcraft.RPGCraft.stats.HPStat;
+import ru.darkcraft.RPGCraft.stats.MPStat;
+import ru.darkcraft.RPGCraft.stats.Modifier;
+import ru.darkcraft.RPGCraft.stats.StaminaStat;
 
 import java.util.ArrayList;
 
@@ -16,16 +20,19 @@ import java.util.ArrayList;
 public final class RCPlayer {
     private Player player;
     private ArrayList<SkillState> skills;
-    private int HP;
-    private int maxHP;
-    private int mana;
-    private int maxMana;
-    private int stamina;
-    private int maxStamina;
+    private float HP;
+    private HPStat maxHP;
+    private float mana;
+    private MPStat maxMana;
+    private float stamina;
+    private StaminaStat maxStamina;
 
     public RCPlayer(Player p)
     {
-        this.player=p;
+        this.player = p;
+        maxHP = new HPStat(20);
+        maxMana = new MPStat(20);
+        maxStamina = new StaminaStat(20, new Modifier(maxHP, 0.1f));
     }
 
     public void load(ConfigurationSection cfg)
@@ -35,63 +42,69 @@ public final class RCPlayer {
         }
     }
 
-    public int getHP()
+
+    public float getHP()
     {
         return HP;
     }
 
-    public void setHP(int HP)
+    public void setHP(float HP)
     {
         this.HP = HP;
     }
 
-    public int getMaxHP()
-    {
-        return maxHP;
-    }
-
-    public void setMaxHP(int maxHP)
-    {
-        this.maxHP = maxHP;
-    }
-
-    public int getMana()
+    public float getMana()
     {
         return mana;
     }
 
-    public void setMana(int mana)
+
+    public void setMana(float mana)
     {
         this.mana = mana;
     }
 
-    public int getMaxMana()
-    {
-        return maxMana;
-    }
 
-    public void setMaxMana(int maxMana)
-    {
-        this.maxMana = maxMana;
-    }
-
-    public int getStamina()
+    public float getStamina()
     {
         return stamina;
     }
 
-    public void setStamina(int stamina)
+    public void setStamina(float stamina)
     {
         this.stamina = stamina;
     }
 
-    public int getMaxStamina()
+
+    public float getMaxHP()
     {
-        return maxStamina;
+        return maxHP.getValue();
     }
 
-    public void setMaxStamina(int maxStamina)
+    public void setMaxHP(float maxHP)
     {
-        this.maxStamina = maxStamina;
+        this.maxHP.setValue(maxHP);
+    }
+
+
+    public float getMaxMana()
+    {
+        return maxMana.getValue();
+    }
+
+    public void setMaxMana(float maxMana)
+    {
+        this.maxMana.setValue(maxMana);
+    }
+
+
+    public float getMaxStamina()
+    {
+        return maxStamina.getValue();
+    }
+
+    public void setMaxStamina(float maxStamina)
+    {
+        this.maxStamina.setValue(maxStamina);
     }
 }

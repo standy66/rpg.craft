@@ -11,7 +11,7 @@ import java.util.HashMap;
  */
 public class SkillDB
 {
-    private HashMap<String,Skill> skills;
+    private HashMap<String, Skill> skills;
 
     public Skill get(String name)
     {
