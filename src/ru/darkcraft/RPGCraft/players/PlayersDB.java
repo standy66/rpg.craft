@@ -10,13 +10,13 @@ import java.util.HashMap;
  * To change this template use File | Settings | File Templates.
  */
 public final class PlayersDB {
-    private static HashMap<String,RCPlayer> players;
+    private static HashMap<String,PlayerWrapper> players;
 
-    public static void set(String name,RCPlayer p) {
+    public static void set(String name,PlayerWrapper p) {
         players.put(name,p);
     }
 
-    public static RCPlayer get(String name) {
+    public static PlayerWrapper get(String name) {
         return players.get(name);
     }
 }

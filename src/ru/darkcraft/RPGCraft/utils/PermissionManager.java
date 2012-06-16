@@ -1,15 +1,11 @@
-package ru.darkcraft.RPGCraft;
+package ru.darkcraft.RPGCraft.utils;
 
 import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.PluginManager;
-import org.bukkit.util.FileUtil;
 
-import java.io.File;
-import java.io.FileReader;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.io.*;
-import java.util.*;
 
 /**
  *

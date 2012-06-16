@@ -1,4 +1,4 @@
-package ru.darkcraft.RPGCraft.skill;
+package ru.darkcraft.RPGCraft.skills;
 
 /**
  * Created with IntelliJ IDEA.

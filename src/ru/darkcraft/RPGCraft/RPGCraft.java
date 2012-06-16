@@ -7,6 +7,8 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.Command;
 import ru.darkcraft.RPGCraft.listeners.*;
+import ru.darkcraft.RPGCraft.utils.Log;
+import ru.darkcraft.RPGCraft.utils.PermissionManager;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.logging.Logger;
@@ -45,6 +47,7 @@ public final class RPGCraft extends JavaPlugin
         permissionManager.loadPermissions("/permissions.yml");
         permissionManager.registerPermissions();
         pluginManager = getServer().getPluginManager();
+
 
         Log.info("Plugin is enabled");
     }

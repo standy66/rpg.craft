@@ -2,7 +2,7 @@ package ru.darkcraft.RPGCraft.players;
 
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
-import ru.darkcraft.RPGCraft.skill.SkillState;
+import ru.darkcraft.RPGCraft.skills.SkillState;
 import ru.darkcraft.RPGCraft.stats.HPStat;
 import ru.darkcraft.RPGCraft.stats.MPStat;
 import ru.darkcraft.RPGCraft.stats.Modifier;
@@ -17,8 +17,8 @@ import java.util.ArrayList;
  * Time: 0:54
  * To change this template use File | Settings | File Templates.
  */
-public final class RCPlayer {
-    private Player player;
+public final class PlayerWrapper extends EntityWrapper
+{
     private ArrayList<SkillState> skills;
     private float HP;
     private HPStat maxHP;
@@ -27,9 +27,18 @@ public final class RCPlayer {
     private float stamina;
     private StaminaStat maxStamina;
 
-    public RCPlayer(Player p)
+    public PlayerWrapper(Player p)
     {
-        this.player = p;
+        super(p);
+        maxHP = new HPStat(20);
+        maxMana = new MPStat(20);
+        maxStamina = new StaminaStat(20, new Modifier(maxHP, 0.1f));
+    }
+
+
+    public PlayerWrapper(Player p, String name)
+    {
+        super(p, name);
         maxHP = new HPStat(20);
         maxMana = new MPStat(20);
         maxStamina = new StaminaStat(20, new Modifier(maxHP, 0.1f));
@@ -37,11 +46,11 @@ public final class RCPlayer {
 
     public void load(ConfigurationSection cfg)
     {
-        for(String s:cfg.getConfigurationSection("skills").getKeys(false)) {
+        for(String s:cfg.getConfigurationSection("skills").getKeys(false))
+        {
 
         }
     }
-
 
     public float getHP()
     {
@@ -106,5 +115,11 @@ public final class RCPlayer {
     public void setMaxStamina(float maxStamina)
     {
         this.maxStamina.setValue(maxStamina);
+    }
+
+    @Override
+    public void doDamage(float damage)
+    {
+
     }
 }

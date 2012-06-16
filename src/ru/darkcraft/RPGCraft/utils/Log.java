@@ -1,4 +1,4 @@
-package ru.darkcraft.RPGCraft;
+package ru.darkcraft.RPGCraft.utils;
 
 import org.bukkit.plugin.PluginDescriptionFile;
 
