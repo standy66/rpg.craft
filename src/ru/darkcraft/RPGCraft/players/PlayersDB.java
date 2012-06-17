@@ -1,5 +1,6 @@
 package ru.darkcraft.RPGCraft.players;
 
+import java.util.Collection;
 import java.util.HashMap;
 
 /**
@@ -11,12 +12,30 @@ import java.util.HashMap;
  */
 public final class PlayersDB {
     private static HashMap<String,PlayerWrapper> players;
+    private static Object locker;
 
-    public static void set(String name,PlayerWrapper p) {
+    public static void put(String name, PlayerWrapper p)
+    {
         players.put(name,p);
     }
 
-    public static PlayerWrapper get(String name) {
+    public static PlayerWrapper get(String name)
+    {
         return players.get(name);
+    }
+
+    public static void remove(String name)
+    {
+        players.remove(name);
+    }
+
+    public static Collection<PlayerWrapper> values()
+    {
+        return  players.values();
+    }
+
+    public static Object getLocker()
+    {
+        return locker;
     }
 }

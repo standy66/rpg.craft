@@ -6,6 +6,7 @@ import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.command.Command;
+import ru.darkcraft.RPGCraft.api.tasks.InfluenceHandlerTask;
 import ru.darkcraft.RPGCraft.listeners.*;
 import ru.darkcraft.RPGCraft.utils.Log;
 import ru.darkcraft.RPGCraft.utils.PermissionManager;
@@ -48,8 +49,14 @@ public final class RPGCraft extends JavaPlugin
         permissionManager.registerPermissions();
         pluginManager = getServer().getPluginManager();
 
+        schedule();
 
         Log.info("Plugin is enabled");
+    }
+
+    public void schedule()
+    {
+        getServer().getScheduler().scheduleSyncRepeatingTask(this, new InfluenceHandlerTask(), 20L, 20L);
     }
 
     @Override

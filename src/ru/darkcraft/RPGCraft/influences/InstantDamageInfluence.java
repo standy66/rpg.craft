@@ -12,13 +12,13 @@ import ru.darkcraft.RPGCraft.players.EntityWrapper;
  * @author KarN
  * @version 1.0
  */
-public class InstantDamageInfluence extends Influence
+public class InstantDamageInfluence extends InstantInfluence
 {
     private float damage;
 
     public InstantDamageInfluence(EntityWrapper target, float damage)
     {
-        super(target, 0);
+        super(target);
         this.damage = damage;
     }
 

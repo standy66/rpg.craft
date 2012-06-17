@@ -43,7 +43,10 @@ public abstract class Influence
 
     public void apply()
     {
-        target.addInfluence(this);
+        if (this instanceof InstantInfluence)
+            cast();
+        else
+            target.addInfluence(this);
         appliedTime = System.nanoTime();
     }
 

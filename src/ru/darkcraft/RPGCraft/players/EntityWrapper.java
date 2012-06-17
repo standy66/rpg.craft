@@ -17,9 +17,9 @@ import java.util.ArrayList;
  */
 public abstract class EntityWrapper
 {
-    private LivingEntity entity;
-    private String name;
-    private ArrayList<Influence> influences;
+    protected LivingEntity entity;
+    protected String name;
+    protected ArrayList<Influence> influences;
 
     public EntityWrapper(LivingEntity entity)
     {
@@ -43,6 +43,20 @@ public abstract class EntityWrapper
     public void addInfluence(Influence influence)
     {
         this.influences.add(influence);
+    }
+
+    public void processInfluences()
+    {
+        for (int i = 0; i < influences.size(); i++)
+        {
+            Influence influence = influences.get(i);
+            influence.cast();
+            if (influence.getRemainingTime() < 0)
+            {
+                influences.remove(i);
+                i--;
+            }
+        }
     }
 
     public abstract void doDamage(float damage);

@@ -2,7 +2,9 @@ package ru.darkcraft.RPGCraft.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerLoginEvent;
+import org.bukkit.event.player.PlayerQuitEvent;
 import ru.darkcraft.RPGCraft.RPGCraft;
 import ru.darkcraft.RPGCraft.players.PlayerWrapper;
 import ru.darkcraft.RPGCraft.players.PlayersDB;
@@ -23,9 +25,17 @@ public final class PlayerListener extends BaseListener
     }
 
     @EventHandler
-    public void onPlayerLogin(PlayerLoginEvent event){
-        Player player=event.getPlayer();
-        PlayersDB.set(player.getName(),new PlayerWrapper(player));
+    public void onPlayerJoin(PlayerJoinEvent event)
+    {
+        Player player = event.getPlayer();
+        PlayersDB.put(player.getName(), new PlayerWrapper(player));
         player.sendMessage("Welcome to server!");
+    }
+
+    @EventHandler
+    public void onPlayerQuit(PlayerQuitEvent event)
+    {
+        Player player = event.getPlayer();
+        PlayersDB.remove(player.getName());
     }
 }

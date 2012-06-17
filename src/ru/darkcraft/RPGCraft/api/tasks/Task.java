@@ -10,5 +10,8 @@ package ru.darkcraft.RPGCraft.api.tasks;
  * @author KarN
  * @version 1.0
  */
-public class Task {
+public abstract class Task implements Runnable
+{
+    @Override
+    public abstract void run();
 }

@@ -1,5 +1,7 @@
 package ru.darkcraft.RPGCraft.influences;
 
+import ru.darkcraft.RPGCraft.players.EntityWrapper;
+
 /**
  * Paste description here
  * <p/>
@@ -10,5 +12,10 @@ package ru.darkcraft.RPGCraft.influences;
  * @author KarN
  * @version 1.0
  */
-public class InstantInfluence {
+public abstract class InstantInfluence extends Influence
+{
+    public InstantInfluence(EntityWrapper target)
+    {
+        super(target, 0);
+    }
 }

@@ -17,6 +17,7 @@ import java.util.ArrayList;
  * Time: 0:54
  * To change this template use File | Settings | File Templates.
  */
+//TODO: load hp from save
 public final class PlayerWrapper extends EntityWrapper
 {
     private ArrayList<SkillState> skills;
@@ -120,6 +121,11 @@ public final class PlayerWrapper extends EntityWrapper
     @Override
     public void doDamage(float damage)
     {
+        Player player = (Player)entity;
 
+        HP -= damage;
+        float d = HP / getMaxHP();
+
+        player.setHealth((int)(d * 20));
     }
 }
