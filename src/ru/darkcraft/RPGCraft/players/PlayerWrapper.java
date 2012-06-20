@@ -18,6 +18,7 @@ import java.util.ArrayList;
  * To change this template use File | Settings | File Templates.
  */
 //TODO: load hp from save
+//TODO: rewrite doDamage
 public final class PlayerWrapper extends EntityWrapper
 {
     private ArrayList<SkillState> skills;
